@@ -1,4 +1,4 @@
-# tubesAKA
+# TUBES AKA
 ## Tugas Besar Mata Kuliah Analisis Kompleksitas Algoritma
 ### Kelas : IF-44-09
 ### Anggota Kelompok :
