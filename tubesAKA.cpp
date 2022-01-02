@@ -2,9 +2,8 @@
 using namespace std;
 
 int main(){
-    cout<<"======Insertion Sort======"<<endl<<endl;
 	int y;
-	cout<<"Masukan banyak array: ";
+	cout<<"======Insertion Sort======"<<endl<<endl<<"Masukan banyak array: ";
 	cin>>y;
 	cout<<endl;
 	int x[y];
