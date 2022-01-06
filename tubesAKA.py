@@ -3,7 +3,7 @@ import random
 import time
 
 root = Tk()
-root.title('Sort Visualization_1301204233_1301204255')
+root.title('Sort Visualization InsertionSort ShellSort')
 root.maxsize(1080,720)
 root.config (bg='white')
 
@@ -112,15 +112,23 @@ Label(labelFrame2,text="Time (seconds):",bg='white').grid(row=1,column=1)
 timer2 = Label(labelFrame2, text="", bg = "white")
 timer2.grid(row=2, column=1,pady=20)
 
-Label(buttonsFrame, text="Silahkan input total array yang akan di sorting (e.g 100) :", bg= 'white').grid(row=0, column=0, padx=5,pady=5)
+Label(buttonsFrame, text="Tugas Besar AKA", bg= 'white').grid(row=0, column=0, padx=5,pady=5)
+
+Label(buttonsFrame, text="Anggota Kelompok :", bg= 'white').grid(row=1, column=0, padx=5,pady=5)
+
+Label(buttonsFrame, text="1. Aufa Mutia (1301204233)", bg= 'white').grid(row=2, column=0, padx=5,pady=5)
+
+Label(buttonsFrame, text="2. Andri Zefrinaldi (1301204255)", bg= 'white').grid(row=3, column=0, padx=5,pady=5)
+
+Label(buttonsFrame, text="Silahkan input total array yang akan di sorting (e.g 100) :", bg= 'white').grid(row=5, column=0, padx=5,pady=5)
 
 sizeInput = Entry(buttonsFrame)
-sizeInput.grid(row=1, column=0, padx=5,pady=5)
+sizeInput.grid(row=6, column=0, padx=5,pady=5)
 
 genButton =Button(buttonsFrame, text="Generate", command=generateArr)
-genButton.grid(row=2, column=0, padx=5, pady=5)
+genButton.grid(row=7, column=0, padx=5, pady=5)
 
 startButton = Button(buttonsFrame, text="Sort array", command=startAlgo)
-startButton.grid(row=3, column=0, padx=5, pady=5)
+startButton.grid(row=8, column=0, padx=5, pady=5)
 
 root.mainloop()
