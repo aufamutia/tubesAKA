@@ -24,7 +24,7 @@ def insertionSort(arr, drawArr,canvas):
         drawArr(arr, ['green' for x in range(len(arr))], canvas)       
 
 
-def shell_sort(data,drawArr,canvas): 
+def shellSort(data,drawArr,canvas): 
     global time_start
     time_start = time.time()  
     gap = len(data) // 2
